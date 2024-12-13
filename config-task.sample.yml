@@ -1,0 +1,66 @@
+# Name and metadata of your task
+task_name: 'Chonkus'
+author: 'ChonkusCoin'
+description: "Volunteer your spare Twitter account and join our mission to break into the memecoin space! We're on a quest to bring memecoin utility to the conversation, with Chonkus. In this initiative, you'll play a crucial role in helping Chonkus get exposure in the saturated memecoin market. Please note that we only make one post per account every 24 hours. The task involves posting one (1) comment per day, which will look like: '(meme) + :egg::hatching_chick::egg:'. Before participating, please ensure that your volunteer Twitter account has passed the verification process. Rewards for this task will act as placeholders, and with the $CHONKUS token launch coming soon, participants will receive exclusive airdrops!"
+repositoryUrl: 'https://github.com/chaollapark/SecretProject/tree/%40PrimeHydrate'
+imageUrl: 'https://bafybeifv75i7j24rfrgnswozcphl5pn3khozsyzt2a7zdqpx3sa6aamhgm.ipfs.w3s.link/Chonkus-ocean-photo.png'
+infoUrl: 'https://www.koii.network/ocean/CHONKUS'
+
+# network value can be DEVELOPMENT , ARWEAVE or IPFS, Recommended IPFS when deploying to testnet as the cli automatically takes care of uploading the executable with the help of web3.js key
+task_executable_network: 'IPFS'
+
+# Path to your executable webpack if the selected network is IPFS and in case of DEVELOPMENT  name it as main
+task_audit_program: 'dist/main.js'
+
+# Total round time of your task : it must be given in slots and each slot is roughly equal to 408ms
+round_time: 100000
+audit_window: 40000
+submission_window: 40000
+
+# Amounts in KOII
+minimum_stake_amount: 1.0
+
+# total_bounty_amount cannot be grater than bounty_amount_per_round
+# total bounty is not accepted in case of update task
+total_bounty_amount: 10000
+bounty_amount_per_round: 1000
+#Number of times allowed to re-submit the distribution  list in case the distribution list is audited
+allowed_failed_distributions: 5
+
+#Space in MBs for the account size, that holds the task data
+space: 5
+
+# Note that the value field in RequirementTag is optional, so it is up to you to include it or not based on your use case.
+# To add more global variables and task variables, please refer the type,value,description format shown below
+
+requirementsTags:
+  - type: TASK_VARIABLE
+    value: 'TWITTER_USERNAME'
+    description: 'The username of your volunteer Twitter account. Please ensure your volunteer Twitter account has passed the Twitter verification process.'
+  - type: TASK_VARIABLE
+    value: 'TWITTER_PASSWORD'
+    description: 'The password of your volunteer Twitter account.'
+  - type: TASK_VARIABLE
+    value: 'TWITTER_PHONE'
+    description: 'If verification is required, will use your phone number to login.'
+  - type: CPU
+    value: '4-core'
+  - type: RAM
+    value: '5 GB'
+  - type: STORAGE
+    value: '5 GB'
+
+# token type KPL
+task_type: 'KPL'
+
+# mint address
+token_type: '7h5be74YDFFESEqLtaXFpZQERLg2156qNbQNKufFS5DA'
+
+tags: ['Social Posting', 'DeSci', 'Memecoin']
+environment: 'PRODUCTION'
+
+# OPTIONAL Only provide the taskId if you are updating the task otherwise leave blank
+task_id: '43DZTeFNjdDswSLCLt71qzWQTt3D2ULJnsmRQGuNcmhy'
+
+# Provide the description for changes made in new version of task
+migrationDescription: 'updated the last comment timeStamp'

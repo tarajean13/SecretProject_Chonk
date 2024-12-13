@@ -145,7 +145,7 @@ class TwitterTask {
     this.isRunning = true;
 
     // random selected emojis
-    const emojis = ['🥚', '🐣', '🥚'];
+    const emojis = ['🦠', '🦾', '💚', '✨', '🧪'];
     for (let i = emojis.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [emojis[i], emojis[j]] = [emojis[j], emojis[i]];
@@ -154,7 +154,7 @@ class TwitterTask {
     const getRandomEmojis = emojis.slice(0, numEmojis).join('');
 
     // random selected hashtags
-    const hashtags = ['#releaseDrats', '#cryptozoo', '#LoganPaul', '#shame'];
+    const hashtags = ['#AlgaeBiotech', '#Chonkus', '#DeSci', '#CryptoCommunity', '#Memecoin', '#AI', '#Blockchain'];
     for (let i = hashtags.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [hashtags[i], hashtags[j]] = [hashtags[j], hashtags[i]];
