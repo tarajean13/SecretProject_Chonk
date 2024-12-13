@@ -1,5 +1,5 @@
 # Chonkus Positivity Posting Project
-The "Chonkus Positivity Project"  aims run an awareness campaign for Chonkus by identifying a target post on Twitter and commenting with postive Chonkus messaging. The goal of Chonkus Coin is to  The current target is posts relating to DeSci, Memecoins, Algae, Biotechnology and AI. Participants use a spare Twitter account to post a single comment per day with the format "(your text) + (Related Emoji, e.g.,🦠)".
+The "Chonkus Positivity Project"  aims run an awareness campaign for Chonkus by identifying a target post on Twitter and commenting with postive Chonkus messaging. The goal of Chonkus Coin is to be a memecoin with purposeful utility. Using decentralized science (DeSci), we’ve created a coin that blends memes, synthetic biology, and AI to tackle climate change. The current target is posts relating to DeSci, Memecoins, Algae, Biotechnology and AI. Participants use a spare Twitter account to post a single comment per day with the format "(your text) + (Related Emoji, e.g.,🦠)".
 
 # Participation Requirements
 1. Volunteer a spare Twitter account for trolling.
