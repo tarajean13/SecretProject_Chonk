@@ -1,11 +1,11 @@
-# Asshole in Chief Project
-The "Asshole in Chief" project aims to identify a target on Twitter and troll them. The current target is @JDVance. Participants use a spare Twitter account to post a single comment per day with the format "(your text) + 🛋🛋🛋".
+# Chonkus Positivity Posting Project
+The "Chonkus Positivity Project"  aims run an awareness campaign for Chonkus by identifying a target post on Twitter and commenting with postive Chonkus messaging. The goal of Chonkus Coin is to  The current target is posts relating to DeSci, Memecoins, Algae, Biotechnology and AI. Participants use a spare Twitter account to post a single comment per day with the format "(your text) + (Related Emoji, e.g.,🦠)".
 
 # Participation Requirements
 1. Volunteer a spare Twitter account for trolling.
 2. Ensure your volunteer Twitter account has passed the verification process.
 
-Note: There are no rewards for this task currently, but we are planning events and bounties in the future.
+Note: The rewards for this task currently have no liquidity, but will within approximately a month. 
 
 # The Koii Network
 The Koii Network empowers users by making their computers work for them when not used. Users (AKA nodes) are rewarded for running tasks they choose on their devices.
